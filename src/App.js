@@ -11,7 +11,7 @@ function App() {
     <>
     <Menu />
     <Routes>
-      <Route path='SearchAnything-React/' element={<Home name="Homes"/>}/>
+      <Route path='SearchAnything-React/' element={<Home name="Home"/>}/>
       <Route path='SearchAnything-React/services' element={<Service name="Services"/>}/>
       <Route path='SearchAnything-React/about' element={<About name="About"/>}/>
       <Route path='SearchAnything-React/index' element={<Home name="Homes"/>}/>
