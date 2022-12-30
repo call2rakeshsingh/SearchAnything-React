@@ -13,10 +13,10 @@ function Home(props) {
     <>
     <h1>This is <span style={{color:"blueviolet"}}>{props.name}</span> Page</h1>  
     <div className='HomeSec'>
-    <input type="text" placeholder='Search Anything' value={inputVal} onChange={onChangeHandler}/>    
+    <input type="text" placeholder='Search Images' value={inputVal} onChange={onChangeHandler}/>    
     </div>
 
-    {inputVal === "" ? <div className='imgDiv'><p>Search <span style={{color:"orange"}}> AnyThing....</span></p></div> :<ShowImage name={inputVal}/>}
+    {inputVal === "" ? <div className='imgDiv'><p>Search <span style={{color:"orange"}}> Images....</span></p></div> :<ShowImage name={inputVal}/>}
     </>
   )
 }
