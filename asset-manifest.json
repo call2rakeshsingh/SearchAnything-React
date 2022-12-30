@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SearchAnything-React/static/css/main.38beb39d.css",
+    "main.js": "/SearchAnything-React/static/js/main.de16860e.js",
+    "index.html": "/SearchAnything-React/index.html",
+    "main.38beb39d.css.map": "/SearchAnything-React/static/css/main.38beb39d.css.map",
+    "main.de16860e.js.map": "/SearchAnything-React/static/js/main.de16860e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38beb39d.css",
+    "static/js/main.de16860e.js"
+  ]
+}
