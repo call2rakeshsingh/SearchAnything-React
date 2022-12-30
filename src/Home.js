@@ -16,7 +16,7 @@ function Home(props) {
     <input type="text" placeholder='Search Anything' value={inputVal} onChange={onChangeHandler}/>    
     </div>
 
-    {inputVal == "" ? <div className='imgDiv'><p>Search <span style={{color:"orange"}}> AnyThing....</span></p></div> :<ShowImage name={inputVal}/>}
+    {inputVal === "" ? <div className='imgDiv'><p>Search <span style={{color:"orange"}}> AnyThing....</span></p></div> :<ShowImage name={inputVal}/>}
     </>
   )
 }

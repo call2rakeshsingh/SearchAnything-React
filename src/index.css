@@ -16,6 +16,8 @@ code {
     monospace;
 }
 
+@media only screen and (min-width: 501px) {
+
 a.active{
   color: red;
   border-bottom: 2px solid blueviolet;
@@ -76,4 +78,78 @@ h1{
   font-weight: bolder;
   color: gray;
   
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  a.active{
+    color: red;
+    border-bottom: 2px solid blueviolet;
+  }
+  
+  a:hover{
+    background-color: rgb(216, 244, 249);
+  }
+  
+  nav{
+    background-color: antiquewhite;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+  }
+  
+  nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+  }
+  
+  
+  h1{
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .HomeSec{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .HomeSec input{
+    width: 80vw;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  
+  .imgDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: gray;
+    
+  }
+
+
+
+
+
+
 }

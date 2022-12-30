@@ -6,9 +6,9 @@ function Menu() {
     <>
     <nav>
     <ul>
-    <li><NavLink exact to="/" activeClassName >Home</NavLink></li>
-    <li><NavLink exact to="/services" activeClassName >Services</NavLink></li>
-    <li><NavLink exact to="/about" activeClassName >About</NavLink></li>
+    <li><NavLink exact to="SearchAnything-React/" activeClassName >Home</NavLink></li>
+    <li><NavLink exact to="SearchAnything-React/services" activeClassName >Services</NavLink></li>
+    <li><NavLink exact to="SearchAnything-React/about" activeClassName >About</NavLink></li>
     </ul>
     </nav>
     </>
