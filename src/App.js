@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Home';
 import About from './About';
 import Menu from './Menu.js';
+import Error from './Error.js';
 import Service from './Service';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path='SearchAnything-React/services' element={<Service name="Services"/>}/>
       <Route path='SearchAnything-React/about' element={<About name="About"/>}/>
       <Route path='SearchAnything-React/index' element={<Home name="Homes"/>}/>
+      <Route path='*' element={<Error />}/>
     </Routes>
     </>
   );
