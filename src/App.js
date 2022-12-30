@@ -12,10 +12,10 @@ function App() {
     <>
     <Menu />
     <Routes>
-      <Route path='/' element={<Home name="Homes"/>}/>
-      <Route path='/services' element={<Service name="Services"/>}/>
-      <Route path='/about' element={<About name="About"/>}/>
-      <Route path='' element={<Error />}/>
+      <Route path='SearchAnything-React/' element={<Home name="Homes"/>}/>
+      <Route path='SearchAnything-React/services' element={<Service name="Services"/>}/>
+      <Route path='SearchAnything-React/about' element={<About name="About"/>}/>
+      <Route path='SearchAnything-React/index' element={<Home name="Homes"/>}/>
     </Routes>
     </>
   );
